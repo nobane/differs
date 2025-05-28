@@ -1,0 +1,10 @@
+[workspace]
+members = ["differs", "differs-derive"]
+
+[workspace.package]
+edition = "2021"
+homepage = "https://github.com/nobane/differs"
+repository = "https://github.com/nobane/differs"
+authors = ["nobane"]
+license = "MIT"
+readme = "./README.md"

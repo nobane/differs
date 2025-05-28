@@ -1,0 +1,21 @@
+[package]
+version = "0.0.1"
+name = "differs"
+description = "Ergonomic data diffing."
+resolver = "2"
+edition.workspace = true
+authors.workspace = true
+readme.workspace = true
+license.workspace = true
+repository.workspace = true
+
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.140"
+differs-derive = { path = "../differs-derive", version = "0.0.1" }
+paste = "1.0.15"
+

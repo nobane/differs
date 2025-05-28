@@ -1,0 +1,21 @@
+[package]
+name = "differs-derive"
+version = "0.0.1"
+description = "Derive macros for the `differs` crate"
+edition.workspace = true
+authors.workspace = true
+readme.workspace = true
+license.workspace = true
+repository.workspace = true
+
+
+[lib]
+proc-macro = true
+path = "src/lib.rs"
+
+[dependencies]
+proc-macro2 = "1"
+quote = "1"
+syn = { version = "2", features = ["full"] }
+
+
